@@ -1,0 +1,55 @@
+.container
+    width: 50%
+    height: calc(100vh - 60px)
+    margin: 0 auto
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    &_image
+        width: 80%
+    &_field
+        padding: 20px 
+        border: 1px solid black
+        margin-top: 5%
+        border-radius: 12px
+        &:last-child
+            margin-top: 20px
+        &__second
+            margin-top: 5%
+    &_toggle
+        display: flex
+    &_btns
+        width: 100%
+        margin-top: 5%
+        display: flex
+        justify-content: space-around
+        align-items: center
+        &__generate
+            background: linear-gradient(90deg, #f61c1c 0%, #cd0000 30%, #cf1818 85%)
+            color: #ffff
+            width: 35%
+            border: none
+            border-radius: 13px
+            padding: 8px
+            font-size: 16px
+            font-weight: 700
+            cursor: pointer
+            box-shadow: -2px -2px 4px rgba(244, 62, 92, 0.5), 2px 2px 4px rgba(255, 144, 192, 0.5)
+            transition: 1s
+            &:hover
+                box-shadow: -2px -4px 4px rgba(229, 30, 142, 0.5), 2px 2px 4px rgba(190, 40, 60, 0.4)
+        &__tags
+            background: linear-gradient(90deg, #f61c1c 0%, #cd0000 30%, #cf1818 85%)
+            color: #ffff
+            width: 35%
+            border: none
+            border-radius: 13px
+            padding: 8px
+            font-size: 16px
+            font-weight: 700
+            cursor: pointer
+            box-shadow: -2px -2px 4px rgba(244, 62, 92, 0.5), 2px 2px 4px rgba(255, 144, 192, 0.5)
+            transition: 1s
+            &:hover
+                box-shadow: -2px -4px 4px rgba(229, 30, 142, 0.5), 2px 2px 4px rgba(190, 40, 60, 0.4)
